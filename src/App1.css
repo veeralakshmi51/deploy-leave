@@ -1,0 +1,137 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ece4e4;
+  }
+  .dark-header {
+    background-color:rgb(99, 99, 219);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .dark-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .small-logo {
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+  }
+  
+  .nav-links li {
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .hero {
+    
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: rgb(4, 102, 45);
+    background-color: rgb(219, 212, 221);
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: rgb(4, 102, 45);
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ea8807;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px; 
+  }
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(99, 99, 219) ;
+    color: rgb(222, 228, 231);
+    padding: 20px;
+  }
+  
+  .feature {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .feature i {
+    font-size: 2rem;
+    color: #1153e0;
+  }
+  
+  .feature h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .dark-footer {
+    background-color:rgb(3, 21, 75);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    
+  }
+  
+  /* Add this CSS to your stylesheet */
+  
+  .slide {
+    transform: translateX(100%); /* Slide the content out of view to the right */
+    transition: transform 0.5s ease-in-out; /* Add a transition for smooth sliding */
+  }
+  
+  /* Rest of your CSS styles */
+  .hero-title.slide {
+    transform: translateX(0);
+  }
+  .scroll-text {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 50s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .body{
+    background-color: aliceblue;
+  }
+  

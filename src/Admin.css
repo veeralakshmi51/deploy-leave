@@ -1,0 +1,63 @@
+/* Sidebar Styles */
+.sidebar {
+    width: 220px;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  .sidebar img {
+    width: 100%;
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .sidebarsubmenu {
+    padding: 10px 20px;
+    display: block;
+    color: #f5e8e8;
+    text-decoration: none;
+  }
+  
+  .sidebarsubmenu:hover {
+    background-color: #cee0e2;
+  }
+  
+  /* Header Styles */
+  .lmsheader {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .lmsheaderh2 {
+    margin: 0;
+  }
+  
+  /* Terms and Conditions Styles */
+  .tacheading {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .terms {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .tac {
+    margin-left: 20px;
+  }
+  
+  .conditions {
+    margin-left: 20px;
+  }
+  
+  .conditions ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  

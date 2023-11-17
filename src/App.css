@@ -1,0 +1,303 @@
+.lmsheader {
+  background-color: none;
+  margin-bottom: 0%;
+}
+
+.tablehead {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.lmsheaderh1 {
+  /* color: rgb(107, 13, 238); */
+  /* color: rgb(66, 66, 242); */
+  color: #000000;
+  font-family: 'Calibri';
+  font-weight: bolder;
+}
+
+.admin {
+  color: rgb(66, 196, 176);
+  background-color: #525050;
+}
+
+.adminlist {
+  color: rgb(66, 196, 176);
+  font-size: 22px;
+  font-family: 'calibri';
+}
+
+.adminlistitem {
+  color: rgb(66, 196, 176);
+  font-family: 'calibri';
+  font-size: 20px;
+}
+
+.tacheading {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-family: 'calibri';
+  font-weight: bolder;
+  color: #4a1bb9;
+  text-align: center;
+}
+
+.terms {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: 'calibri';
+  font-size: 25px;
+  font-weight: bold;
+  color:#4a1bb9;
+}
+
+.tac li {
+  list-style-type:circle;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: 'calibri';
+
+}
+
+.conditions li {
+  list-style-type:circle;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: 'calibri';
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  /* width: 200px;
+  background-color: #f1f1f1; */
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  /* background-color: #dc2d99; */
+  background-color: #7015cc;
+  color: white;
+  font-size: 20px;
+margin-left:10px
+}
+
+.sidebarsubmenu {
+  color: white;
+  background-color: #010204;
+  /* background-color: #dc2d99; */
+  /* background-color: #e13ca2; */
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #1a175e;
+  color: white;
+}
+
+.btn {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.add {
+  margin-top: 50px;
+}
+
+h4 {
+  color: #4e0ee2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'calibri';
+  font-weight: bolder;
+  align-items: center;
+}
+
+.staffsusertype {
+  height: 60px;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.staffsusertypelabel {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.staffsusertypelabelselect {
+  margin-left: 100px;
+  border-radius: 5px;
+  border-color: gray;
+}
+
+.staffleaveapply {
+  width: 40vw;
+  margin-left: 15vw;
+  margin-top: 25px;
+  justify-content: center;
+}
+
+.editdetails {
+  width: 60vw;
+  margin-left: 10vw;
+}
+
+.changepassword {
+  margin-top: 25px;
+}
+
+.changepasswordh {
+  margin-top: 25px;
+}
+
+.editdetailsborder {
+  margin-top: 20px;
+}
+
+.profileimg {
+  align-items: end;
+  justify-content: end;
+  margin-left: 30vw;
+  margin-top: 10px;
+}
+
+.changepwdbtn {
+  margin-bottom: 15px;
+  width: 10vw;
+  margin-left: 5vw;
+  margin-top: 15px;
+}
+
+.editdetailsname {
+  width: 50vw;
+  margin-top: 20px;
+  margin-left: 5vw;
+}
+
+.editdetailsbtn {
+  width: 20vw;
+  margin-left: 20vw;
+  margin-bottom: 25px;
+}
+
+.leaveapplybtn {
+  width: 15vw;
+  margin-left: 125px;
+  margin-bottom: 25px;
+}
+
+.leaveapplyname {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.staffsusertype .border {
+  color: gray;
+}
+
+.paginationbtn {
+  background-color: rgb(21, 147, 206);
+  color: black;
+}
+
+
+
+.leavesave {
+  margin-left: 150px;
+}
+
+.message {
+  margin-bottom: 20px;
+}
+
+.messageinput {
+  margin-bottom: 20px;
+}
+
+.messagecol {
+  margin-left: 100px;
+}
+
+.logout {
+  text-align: center;
+  width: 30vw;
+  height: 26vh;
+  margin-top: 25px;
+  margin-left: 25vw;
+}
+
+.stafflogout {
+  text-align: center;
+  width: 30vw;
+  height: 26vh;
+  margin-top: 25px;
+  margin-left: 35vw;
+}
+
+.logoutp {
+  margin-top: 5vh;
+  font-size: 25px;
+}
+
+.logoutyes {
+  width: 5vw;
+  margin-top: 10px;
+}
+
+.logoutno {
+  width: 5vw;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.logouth4 {
+  margin-top: 25px;
+}
+
+.profile {
+  width: 40vw;
+  margin-left: 20vw;
+  margin-top: 7vh;
+}
+
+.profilep {
+  margin-top: 3vh;
+  margin-left: 10vw;
+  margin-bottom: 3vh;
+  font-family: calibri;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+  width: 100%;
+  margin-top: 0;
+  }
+  .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.welcome {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.input [type="checkbox"]{
+  height: 20px;
+  width: 20px;
+}
+
+th {
+  text-align: center;
+}
+td{
+  text-align: center;
+}

@@ -1,0 +1,113 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    width: 600px;
+    background: white;
+    /* padding-bottom: 5px;
+     */
+  
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+.text{
+    color: rgb(2, 18, 79);
+    font-size: 48px;
+    font-weight: 700;
+}
+.underline{
+    width: 61px;
+    height: 6px;
+    background:blueviolet;
+    border-radius: 9px;
+}
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap:25px
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin:auto;
+    width: 480px;
+    height: 60px;
+    background: rgb(231, 215, 215);
+    border-radius: 6px;
+}
+.input img{
+    margin: 0px 30px;
+}
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(28, 24, 24);
+    font-size: 19px;
+}
+.forgot-password{
+    padding-left: 62px;
+    margin-top: 40px;
+    color: #797979;
+    font-size: 20px;
+}
+.forgot-password span{
+    color: #4c00b4;
+    cursor: pointer;
+}
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto; 
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: rgb(227, 231, 243);
+    background-color: #01034b;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.submit:hover{
+    color: #b3adad;
+    background-color: rgb(86, 13, 220);
+    
+}
+p {
+    color: rgb(159, 85, 85);
+    font-size: 20px;
+    text-align: center;
+  }
+  p{
+    color: rgb(206, 127, 127);
+    font-size: 20px;
+    text-align: center;
+  }
+  .input select {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    outline: none;
+    margin-left: 15px;
+  }
+  
